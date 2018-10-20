@@ -1,0 +1,8 @@
+prefix=/home/branko/catkin_ws/install
+
+Name: zadaca3
+Description: Description of zadaca3
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/branko/catkin_ws/install/lib 
+Requires: 

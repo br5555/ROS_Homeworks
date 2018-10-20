@@ -1,0 +1,8 @@
+prefix=/home/branko/catkin_ws/install
+
+Name: ros_liv_wander
+Description: Description of ros_liv_wander
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/branko/catkin_ws/install/lib 
+Requires: 

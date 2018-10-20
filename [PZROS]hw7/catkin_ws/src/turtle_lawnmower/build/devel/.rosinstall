@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/branko/catkin_ws/src/turtle_lawnmower/build/devel/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/branko/catkin_ws/install
+
+Name: stdr_msgs
+Description: Description of stdr_msgs
+Version: 0.3.1
+Cflags: -I/home/branko/catkin_ws/install/include
+Libs: -L/home/branko/catkin_ws/install/lib 
+Requires: message_runtime std_msgs geometry_msgs actionlib_msgs nav_msgs

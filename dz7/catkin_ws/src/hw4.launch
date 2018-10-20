@@ -1,0 +1,11 @@
+<launch>
+
+
+    <node type="turtlesim_node" pkg="turtlesim" name="turtlesim"/>
+    <node type="turtle_teleop_key" pkg="turtlesim" name="turtle_teleop" output="screen"/>
+    <node pkg="rosservice" type="rosservice" name="turtle2" args="call spawn 2 2 0.2 turtle2 "/>
+
+    <node type="hw3.py" pkg="zadaca3" name="scripts" output="screen">
+
+
+</launch>

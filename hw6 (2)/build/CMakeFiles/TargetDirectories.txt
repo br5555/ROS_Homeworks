@@ -1,0 +1,3 @@
+/home/branko/hw6/build/CMakeFiles/edit_cache.dir
+/home/branko/hw6/build/CMakeFiles/rebuild_cache.dir
+/home/branko/hw6/build/CMakeFiles/DisplayImage.dir

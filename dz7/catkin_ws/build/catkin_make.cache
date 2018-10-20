@@ -1,0 +1,2 @@
+hw6:ros_liv_wander:stdr_simulator/stdr_gui:stdr_simulator/stdr_launchers:stdr_simulator/stdr_msgs:stdr_simulator/stdr_parser:stdr_simulator/stdr_resources:stdr_simulator/stdr_robot:stdr_simulator/stdr_samples:stdr_simulator/stdr_server:stdr_simulator/stdr_simulator:turtle_lawnmower:turtlecontrol:zadaca3
+-DCATKIN_DEVEL_PREFIX=/home/branko/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/branko/catkin_ws/install -G Unix Makefiles

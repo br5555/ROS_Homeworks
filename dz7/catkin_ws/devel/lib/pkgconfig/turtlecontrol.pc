@@ -1,0 +1,8 @@
+prefix=/home/branko/catkin_ws/devel
+
+Name: turtlecontrol
+Description: Description of turtlecontrol
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/branko/catkin_ws/devel/lib 
+Requires: 

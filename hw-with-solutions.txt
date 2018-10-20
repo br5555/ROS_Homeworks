@@ -1,0 +1,33 @@
+What is the location of the program that gets executed with the
+roscore command?
+
+(1 bod)
+
+$ which roscore
+
+Determine the sizes of the largest and smallest files located in the
+same folder as roscore. Report the sizes in human-readable format
+(K, MB etc.). (Hint: use options of the ls command to sort the files
+by size.)
+
+(2 boda)
+
+$ ls -alsSh /opt/ros/indigo/bin
+
+Find all files inside /opt/ros/indigo which are executable and
+whose name begins with rqt_. Store the output in a file named
+3.txt (Hint: use the find command with additional options).
+
+(4 boda)
+
+$ find /opt/ros/indigo -name rqt_* -executable -type f > 3.txt
+
+In order to determine which Python programs depend on the tf
+coordinate transform library, find all files inside /opt/ros/indigo
+that contain the string import tf. Store the output in a file named
+4.txt (Hint: use the grep command with additional option for
+recursive searching)
+
+(3 boda)
+
+grep -r 'import tf' /opt/ros/indigo > 4.txt

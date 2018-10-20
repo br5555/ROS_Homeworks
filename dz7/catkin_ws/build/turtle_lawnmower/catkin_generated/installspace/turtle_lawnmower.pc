@@ -1,0 +1,8 @@
+prefix=/home/branko/catkin_ws/install
+
+Name: turtle_lawnmower
+Description: Description of turtle_lawnmower
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/branko/catkin_ws/install/lib 
+Requires: 

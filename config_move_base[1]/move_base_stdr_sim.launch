@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <rosparam file="/media/Data/Nastava/ros_liv_predavanja/predavanja/p06-ros-navigation/code/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="/media/Data/Nastava/ros_liv_predavanja/predavanja/p06-ros-navigation/code/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="/media/Data/Nastava/ros_liv_predavanja/predavanja/p06-ros-navigation/code/local_costmap_params.yaml" command="load" />
+    <rosparam file="/media/Data/Nastava/ros_liv_predavanja/predavanja/p06-ros-navigation/code/global_costmap_params.yaml" command="load" />
+    <rosparam file="/media/Data/Nastava/ros_liv_predavanja/predavanja/p06-ros-navigation/code/base_local_planner_params.yaml" command="load" />
+    <remap from="/cmd_vel" to="robot0/cmd_vel"/>
+  </node>
+
+</launch>

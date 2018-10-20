@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: turtle_lawnmower
+Description: Description of turtle_lawnmower
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 
